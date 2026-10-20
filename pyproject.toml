@@ -1,0 +1,16 @@
+[project]
+name = "pd-cookbook"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Arvid", email = "arvidlundqvist@protonmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "biotite>=2.0.0",
+]
+
+
+[tool.uv]
+package = false
